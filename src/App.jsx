@@ -5,7 +5,7 @@ import {
   Route,
   createRoutesFromElements
 } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import SignIn from './components/SignIn';
 import { AuthProvider } from './context/AuthContext';
 import OrdersPage from './pages/OrdersPage';
