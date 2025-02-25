@@ -1,0 +1,80 @@
+export const shopCategoriesGamingHeadphonesData = [
+  {
+    id: 'immortal_131',
+    name: 'boAt Immortal 131',
+    image: '/ShopCategories/GamingHeadphones/immortal-131.webp',
+    price: 1199,
+    originalPrice: 3490,
+    discount: '66% off',
+    rating: '4.9',
+    ratingCount: '62',
+    tag: 'Bestseller',
+    specialFeature: 'Gaming Earbuds',
+    features: ['Up to 40 Hours Playback', 'BEAST™ Mode']
+  },
+  {
+    id: 'immortal_171',
+    name: 'boAt Immortal 171',
+    image: '/ShopCategories/GamingHeadphones/immortal-171.webp',
+    price: 1349,
+    originalPrice: 3499,
+    discount: '61% off',
+    rating: '4.8',
+    ratingCount: '24',
+    tag: 'Trending',
+    specialFeature: 'Gaming Earbuds',
+    features: ['Up to 40HRS Playback', 'BEAST™ Mode']
+  },
+  {
+    id: 'immortal_airspeed_pro',
+    name: 'boAt Immortal Airspeed Pro',
+    image: '/ShopCategories/GamingHeadphones/immortal-airspeed-pro.webp',
+    price: 1999,
+    originalPrice: 6990,
+    discount: '71% off',
+    rating: '4.5',
+    ratingCount: '4',
+    tag: 'Trending',
+    specialFeature: '40 Hours Playback',
+    features: ['Up to 32dB ANC', 'Quad Mics with ENx™ Tech']
+  },
+  {
+    id: 'immortal_158',
+    name: 'boAt Immortal 158',
+    image: '/ShopCategories/GamingHeadphones/immortal-158.webp',
+    price: 1399,
+    originalPrice: 3499,
+    discount: '60% off',
+    rating: '4.7',
+    ratingCount: '3',
+    tag: 'New Launch',
+    specialFeature: '40 Hours Playback',
+    features: ['BEAST™ Mode', 'ASAP™ Charge']
+  },
+  {
+    id: 'immortal_121_deadpool',
+    name: 'boAt Immortal 121 Deadpool Edition',
+    image: '/ShopCategories/GamingHeadphones/immortal-121-deadpool.webp',
+    price: 1699,
+    originalPrice: 3999,
+    discount: '58% off',
+    rating: '4.7',
+    ratingCount: '10',
+    tag: 'Restocking Soon',
+    specialFeature: 'Limited Edition',
+    features: ['ENx™ Technology', '40 Hours Playback'],
+    isRestocking: true
+  },
+  {
+    id: 'immortal_121',
+    name: 'boAt Immortal 121',
+    image: '/ShopCategories/GamingHeadphones/immortal-121.webp',
+    price: 1599,
+    originalPrice: 3490,
+    discount: '54% off',
+    rating: '4.8',
+    ratingCount: '51',
+    specialFeature: '40 Hours Playback',
+    features: ['BEAST™ Mode', 'Real RGB LEDs']
+  }
+];

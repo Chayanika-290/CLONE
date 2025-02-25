@@ -1,0 +1,218 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove button styles */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Remove link decoration */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Transition for hover effects */
+button, a {
+  transition: color 0.2s ease-in-out;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-secondary;
+  }
+}
+
+@layer components {
+  .nav-container {
+    @apply max-w-screen-2xl mx-auto px-4;
+  }
+
+  .nav-link {
+    @apply text-base font-medium text-secondary hover:text-primary transition-colors duration-200;
+  }
+
+  .nav-button {
+    @apply flex items-center text-base font-medium text-secondary hover:text-primary transition-colors duration-200;
+  }
+
+  .nav-icon {
+    @apply w-5 h-5 text-secondary hover:text-primary transition-colors duration-200;
+  }
+
+  .search-input {
+    @apply w-48 ml-2 bg-transparent text-sm focus:outline-none text-secondary placeholder-gray-400;
+  }
+
+  .search-container {
+    @apply flex items-center bg-gray-100 rounded-full px-4 py-2;
+  }
+}
+
+/* Custom styles */
+.top-banner {
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.nav-wrapper {
+  border-bottom: 1px solid #E5E7EB;
+}
+
+/* Transitions */
+.transition-all {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Remove list styles */
+nav ul {
+  list-style: none;
+}
+
+/* Navigation link styles */
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+  color: #ff0000;
+}
+
+/* Icon button styles */
+.icon-button {
+  @apply text-gray-900 hover:text-red-500 transition-colors;
+}
+
+/* Add this to your existing CSS */
+@layer utilities {
+  .after\:origin-center::after {
+    transform-origin: center;
+  }
+  
+  .after\:scale-x-0::after {
+    transform: scaleX(0);
+  }
+  
+  .hover\:after\:scale-x-100:hover::after {
+    transform: scaleX(1);
+  }
+  
+  .after\:transition-transform::after {
+    transition: transform 0.3s ease;
+  }
+}
+
+/* Add to your existing CSS */
+.group:hover .group-hover\:block {
+  display: block;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Update the navigation height */
+.h-[68px] {
+  height: 68px;
+}
+
+/* Add to your existing CSS */
+.group:hover .more-dropdown {
+  display: block;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* More dropdown specific styles */
+.more-menu-item {
+  @apply px-4 py-2 text-[15px] text-[#1A2024] hover:bg-gray-50 hover:text-[#ff0000] transition-colors duration-200;
+}
+
+/* Ensure the dropdown has proper z-index */
+.more-dropdown {
+  z-index: 50;
+  min-width: 200px;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Add to your existing CSS */
+.search-dropdown {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.search-item:hover img {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Add to your existing CSS */
+.cart-drawer-enter {
+  transform: translateX(100%);
+}
+
+.cart-drawer-enter-active {
+  transform: translateX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+.cart-drawer-exit {
+  transform: translateX(0);
+}
+
+.cart-drawer-exit-active {
+  transform: translateX(100%);
+  transition: transform 300ms ease-in-out;
+}
+
+/* Prevent body scroll when drawer is open */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* Add to your existing CSS */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+@keyframes shine {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.shine {
+  animation: shine 2s infinite;
+}

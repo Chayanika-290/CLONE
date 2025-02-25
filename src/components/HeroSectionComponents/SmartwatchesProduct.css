@@ -1,0 +1,8 @@
+.product-card-gradient {
+    background: linear-gradient(135deg, #e9d5ff 0%, #bfdbfe 100%);
+  }
+  
+  .feature-tag {
+    background: #FCD34D;
+    color: #000;
+  }

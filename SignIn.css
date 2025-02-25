@@ -1,0 +1,9 @@
+.auth-btn:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  opacity: 0.7;
+  pointer-events: none;
+} 

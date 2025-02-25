@@ -1,0 +1,80 @@
+export const shopCategoriesWirelessHeadphonesData = [
+  {
+    id: 'rockerz_450_pro',
+    name: 'boAt Rockerz 450 Pro',
+    image: '/ShopCategories/WirelessHeadphones/rockerz-450-pro.webp',
+    price: 1799,
+    originalPrice: 3990,
+    discount: '55% off',
+    rating: '4.7',
+    ratingCount: '74',
+    tag: null,
+    playbackTime: '70 Hours Playback',
+    features: ['Massive 40mm Drivers', 'ASAP Charge']
+  },
+  {
+    id: 'rockerz_550_fm',
+    name: 'boAt Rockerz 550 FM',
+    image: '/ShopCategories/WirelessHeadphones/rockerz-550-fm.webp',
+    price: 4999,
+    originalPrice: null,
+    discount: null,
+    rating: '5.0',
+    ratingCount: '3',
+    tag: null,
+    playbackTime: '20 Hours Playback',
+    features: ['50mm drivers', '500mAh battery', 'Bluetooth v5.0']
+  },
+  {
+    id: 'rockerz_550',
+    name: 'boAt Rockerz 550',
+    image: '/ShopCategories/WirelessHeadphones/rockerz-550.webp',
+    price: 2499,
+    originalPrice: 4999,
+    discount: '50% off',
+    rating: '4.8',
+    ratingCount: '356',
+    tag: 'EXTRA ₹400 OFF',
+    playbackTime: '20 Hours Playback',
+    features: ['500mAh battery', '50mm dynamic drivers']
+  },
+  {
+    id: 'rockerz_425',
+    name: 'boAt Rockerz 425',
+    image: '/ShopCategories/WirelessHeadphones/rockerz-425.webp',
+    price: 1499,
+    originalPrice: 2999,
+    discount: '50% off',
+    rating: '4.9',
+    ratingCount: '26',
+    tag: null,
+    playbackTime: '25 Hours Playback',
+    features: ['BEAST™ Mode', '40mm drivers', 'Bluetooth v5.2']
+  },
+  {
+    id: 'rockerz_551_anc_pro',
+    name: 'boAt Rockerz 551 ANC Pro',
+    image: '/ShopCategories/WirelessHeadphones/rockerz-551-anc-pro.webp',
+    price: 3999,
+    originalPrice: 8990,
+    discount: '56% off',
+    rating: null,
+    ratingCount: null,
+    tag: 'EXTRA ₹100 OFF',
+    playbackTime: '100 Hours Playback',
+    features: ['42dB ANC', 'ENx™ Tech', '40mm Drivers']
+  },
+  {
+    id: 'rockerz_450_polo',
+    name: 'Rockerz 450 POLO',
+    image: '/ShopCategories/WirelessHeadphones/rockerz-450-polo.webp',
+    price: 1699,
+    originalPrice: 3990,
+    discount: '57% off',
+    rating: '4.9',
+    ratingCount: '33',
+    tag: null,
+    playbackTime: '15 Hours Playback',
+    features: ['40mm Drivers', 'Bluetooth v4.2', '300mAh Battery']
+  }
+];

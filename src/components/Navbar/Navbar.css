@@ -1,0 +1,9 @@
+@layer components {
+    .nav-link {
+      @apply text-gray-700 hover:text-gray-900 px-3 py-2 relative group;
+    }
+    
+    .nav-link-indicator {
+      @apply absolute bottom-0 left-0 w-full h-0.5 bg-red-500 transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100;
+    }
+  }

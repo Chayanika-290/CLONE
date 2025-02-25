@@ -1,0 +1,82 @@
+export const shopCategoriesNeckbandsData = [
+  {
+    id: 'rockerz_255_pro_plus',
+    name: 'boAt Rockerz 255 Pro+',
+    image: '/ShopCategories/Neckbands/rockerz255proplus.webp',
+    price: 1199,
+    originalPrice: 3990,
+    discount: '70% off',
+    rating: '4.8',
+    ratingCount: '454',
+    tag: 'Bestseller',
+    playbackTime: '60 Hours Playback',
+    features: ['10mm Drivers', 'boAt Signature Sound'],
+    isBestSeller: true,
+    colors: ['black', 'blue']
+  },
+  {
+    id: 'rockerz_109',
+    name: 'boAt Rockerz 109',
+    image: '/ShopCategories/Neckbands/rockerz109.webp',
+    price: 1299,
+    originalPrice: 2490,
+    discount: '48% off',
+    rating: '4.7',
+    ratingCount: '101',
+    tag: 'EXTRA ₹100 OFF',
+    playbackTime: '40 Hours Playback',
+    features: ['ASAP™ Charge', 'BEAST™ Mode']
+  },
+  {
+    id: 'rockerz_111',
+    name: 'boAt Rockerz 111',
+    image: '/ShopCategories/Neckbands/rockerz111.webp',
+    price: 1299,
+    originalPrice: 2490,
+    discount: '48% off',
+    rating: '4.7',
+    ratingCount: '65',
+    tag: 'Bestseller',
+    playbackTime: '40 Hours Playback',
+    features: ['ENx™ Technology', 'ASAP™ Charge']
+  },
+  {
+    id: 'rockerz_235_pro',
+    name: 'boAt Rockerz 235 Pro',
+    image: '/ShopCategories/Neckbands/rockerz235pro.webp',
+    price: 899,
+    originalPrice: 1990,
+    discount: '55% off',
+    rating: '4.9',
+    ratingCount: '130',
+    tag: 'Trending',
+    playbackTime: '40 Hours Playback',
+    features: ['Voice Assistant', 'BEAST™ Mode']
+  },
+  {
+    id: 'rockerz_333',
+    name: 'boAt Rockerz 333',
+    image: '/ShopCategories/Neckbands/rockerz333.webp',
+    price: 1499,
+    originalPrice: 3990,
+    discount: '62% off',
+    rating: '4.9',
+    ratingCount: '192',
+    tag: 'Bestseller',
+    playbackTime: '60 Hours Playback',
+    features: ['ASAP™ Charge', 'Bluetooth v5.0']
+  },
+  {
+    id: 'rockerz_110',
+    name: 'boAt Rockerz 110',
+    image: '/ShopCategories/Neckbands/rockerz110.webp',
+    price: 999,
+    originalPrice: 2490,
+    discount: '60% off',
+    rating: '4.9',
+    ratingCount: '212',
+    tag: 'New Launch',
+    playbackTime: '40 Hours Playback',
+    features: ['ENx™ Technology', 'ASAP™ Charge']
+  }
+];
